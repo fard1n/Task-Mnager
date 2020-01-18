@@ -1,0 +1,109 @@
+img{
+	width: 100%;
+	display: block;
+	}
+
+.inline-block{
+	display: inline-block;
+}
+
+.inline{
+	display: inline;
+}
+
+.overflow{
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.margin__left-x{
+
+}
+
+.small{
+	width: 10%;
+}
+
+.s--x{
+	width: 25%;
+}
+
+.medium{
+	width: 50%;
+}
+
+.large{
+	width: 75%;
+}
+
+.m-s{
+	margin: 25px 25px 25px 25px;
+}
+
+.m-t-l-s{
+	margin-left:25px; 
+}
+
+.m-t-t-s{
+	margin-top:25px; 
+}
+
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+
+.bg__color--purpel{
+	background: #7259a6;
+}
+
+.header{
+	
+}
+
+
+.sidebar{
+
+}
+
+.sidebar__item{
+	
+}
+
+.card{
+
+}
+
+.card--round{
+	  border-radius: 25px;
+}
+
+.card__size--small{
+	width: 200px;
+	height: 200px;	
+}
+
+.card__color--whitesmoke{
+	background-color: #f9f9fa;
+}
+
+.card__color--grey{
+	background-color:  #929191;
+}
+
+.profile{
+
+}
+
+.profile__pic >img{
+	  border-radius: 50%;
+}
