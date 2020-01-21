@@ -3,17 +3,24 @@ font-family: sans-serif;
 font-weight: 540;
 }
 
+.hide{
+	visibility: hidden;
+}
+
+.height{
+height: 100%;
+}
+
 .box{
 box-sizing: border-box;
 }
 
-.horzinteal-line{
+.horizontal-line{
 
         display: inline-block;
-        border-left: 10px solid #ccc;
-        margin: 0 10px;
-        width: 125px;
-    
+        border-bottom: 1px solid #c6c6c6;
+        width: 100%;
+        
 }
 
 select{
@@ -35,11 +42,11 @@ select{
 }
 
 .title__color--gray{
-	color: ##C5C5C5;
+	color: #C5C5C5;
 }
 .logo{
-	width: 75px;
-	height: 75px;
+	width: 40px;
+	height: 40px;
 }
 img{
 	width: 100%;
@@ -347,6 +354,11 @@ img{
 	  border-radius: 25px;
 }
 
+.card__top--round{
+	  border-radius: 25px 25px 0 0;
+
+}
+
 .card__size--small{
 	width: 200px;
 	height: 200px;	
@@ -389,14 +401,25 @@ ul.dashed > li:before {
 }
 
 
-.button {
+.btn {
+	text-decoration:none;
+	border-style: none;
 	border-radius:27px;
 	font-family:Arial;
-	font-size:17px;
-	padding:17px 56px;
+	font-size:12px;
+	padding:15px 20px;
 	text-decoration:none;
-
 }
+
+.btn__color--blue {
+	box-shadow: 0px 12px 28px -13px #6fc6eb;
+	background-color:#03acfa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
 .myButton:hover {
 	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
 	background-color:#5cbf2a;
